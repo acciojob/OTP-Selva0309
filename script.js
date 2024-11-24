@@ -14,5 +14,11 @@ function handleBackspace(event, currentInput) {
         if (previousInput) {
             previousInput.focus();
         }
+
+window.onload = function() {
+    const firstInput = document.querySelector('.code');
+    if (firstInput) {
+        firstInput.focus();
+    }
     }
 }
